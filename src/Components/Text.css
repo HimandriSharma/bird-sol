@@ -6,10 +6,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border-style: solid;
-    border-color: black;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
     padding: 1rem;
 }
 .subheading{
@@ -17,7 +14,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 29px;
-    line-height: 32px;
     letter-spacing: 0.1em;
 }
 .heading{
@@ -30,6 +26,7 @@
     color: rgba(255, 255, 255, 0.69);
     display: flex;
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 30px;
     line-height: 46px;
 }

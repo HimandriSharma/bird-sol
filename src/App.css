@@ -1,6 +1,33 @@
 .App {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(90deg, #003378 0%, #05104b 100%);
+  display: flex;
+  flex-direction: column;
+}
+.dots {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.neon {
+  position: relative;
+  height: 450px;
+  left: -300px;
+  top: -100px;
+}
+.reverse-neon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height: 450px;
+}
+.head-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.properties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
