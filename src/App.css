@@ -12,14 +12,14 @@
 }
 .neon {
   position: relative;
-  height: 450px;
-  left: -300px;
-  top: -100px;
+  height: 30vmin;
+  left: -30vmin;
+  top: -10vmin;
 }
 .reverse-neon {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  height: 450px;
+  height: 30vmin;
 }
 .head-component {
   display: flex;
