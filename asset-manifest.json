@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bird-sol/static/css/main.bbe0e872.css",
+    "main.css": "/bird-sol/static/css/main.d77682da.css",
     "main.js": "/bird-sol/static/js/main.1f635632.js",
     "static/media/DiscussIllustration.svg": "/bird-sol/static/media/DiscussIllustration.8325342745cb7dd07f774e8d0945ce8b.svg",
     "static/media/Onboarding.svg": "/bird-sol/static/media/Onboarding.e70e87eda4a23135e3c97d5deb1db59a.svg",
@@ -12,11 +12,11 @@
     "static/media/UIDesignIllustration.svg": "/bird-sol/static/media/UIDesignIllustration.d254f5978d0a9bd72e85d36647ddeecb.svg",
     "static/media/Neon.svg": "/bird-sol/static/media/Neon.fd6b39f9c01151036edf1ebad8e02d57.svg",
     "index.html": "/bird-sol/index.html",
-    "main.bbe0e872.css.map": "/bird-sol/static/css/main.bbe0e872.css.map",
+    "main.d77682da.css.map": "/bird-sol/static/css/main.d77682da.css.map",
     "main.1f635632.js.map": "/bird-sol/static/js/main.1f635632.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbe0e872.css",
+    "static/css/main.d77682da.css",
     "static/js/main.1f635632.js"
   ]
 }
