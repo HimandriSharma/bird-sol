@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bird-sol/static/css/main.bbe0e872.css",
+    "main.js": "/bird-sol/static/js/main.1f635632.js",
+    "static/media/DiscussIllustration.svg": "/bird-sol/static/media/DiscussIllustration.8325342745cb7dd07f774e8d0945ce8b.svg",
+    "static/media/Onboarding.svg": "/bird-sol/static/media/Onboarding.e70e87eda4a23135e3c97d5deb1db59a.svg",
+    "static/media/Counting.png": "/bird-sol/static/media/Counting.5a1df59826840f3eea1d.png",
+    "static/media/MaintenanceIllustration.svg": "/bird-sol/static/media/MaintenanceIllustration.485594c0666444ac099b63dc7db2e291.svg",
+    "static/media/HowWeWorkIllustration.svg": "/bird-sol/static/media/HowWeWorkIllustration.c44fbbdadcac0dc644f9afe9f7e2e94c.svg",
+    "static/media/DevelopmentIllustration.svg": "/bird-sol/static/media/DevelopmentIllustration.1641a8f54ffc7a7f504063c7f64383a4.svg",
+    "static/media/dots.svg": "/bird-sol/static/media/dots.b48c733b662848ab92e5ecf89349f1df.svg",
+    "static/media/UIDesignIllustration.svg": "/bird-sol/static/media/UIDesignIllustration.d254f5978d0a9bd72e85d36647ddeecb.svg",
+    "static/media/Neon.svg": "/bird-sol/static/media/Neon.fd6b39f9c01151036edf1ebad8e02d57.svg",
+    "index.html": "/bird-sol/index.html",
+    "main.bbe0e872.css.map": "/bird-sol/static/css/main.bbe0e872.css.map",
+    "main.1f635632.js.map": "/bird-sol/static/js/main.1f635632.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe0e872.css",
+    "static/js/main.1f635632.js"
+  ]
+}
