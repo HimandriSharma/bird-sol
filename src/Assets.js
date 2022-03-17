@@ -1,5 +1,5 @@
 import dots from "./Assets/images/dots.svg";
-import counting from "./Assets/images/Counting.svg";
+import counting from "./Assets/images/Counting.png";
 import UIDesign from "./Assets/images/UIDesignIllustration.svg";
 import Maintenance from "./Assets/images/MaintenanceIllustration.svg";
 import DevelopmentIllustration from "./Assets/images/DevelopmentIllustration.svg";
