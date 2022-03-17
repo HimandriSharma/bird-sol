@@ -1,7 +1,8 @@
-import "./App.css";
-import Head from "./Components/Head";
-import Text from "./Components/Text";
-import useWindowDimensions from "./useWindowDimensions";
+/* eslint-disable react/react-in-jsx-scope */
+import './App.css'
+import Head from './Components/Head'
+import Text from './Components/Text'
+import useWindowDimensions from './useWindowDimensions'
 import {
   dots,
   counting,
@@ -12,22 +13,22 @@ import {
   Work,
   Onboarding,
   Neon,
-} from "./Assets";
+} from './Assets'
 
 function App() {
-  const ratio = useWindowDimensions();
-  const isDesktop = ratio > 1.67;
+  const ratio = useWindowDimensions()
+  const isDesktop = ratio > 1.67
   return (
     <div>
       {isDesktop ? (
         <div className="App">
-          <div style={{ position: "relative" }}>
+          <div style={{position: 'relative'}}>
             <div
               style={{
-                width: "200px",
-                height: "250px",
-                float: "left",
-                display: "inline-block",
+                width: '200px',
+                height: '250px',
+                float: 'left',
+                display: 'inline-block',
               }}
             />
             <img className="dots" src={dots} alt="dots" />
@@ -39,7 +40,7 @@ function App() {
             />
             <img src={counting} alt="counting" />
           </div>
-          <div className="properties" style={{ paddingTop: "200px" }}>
+          <div className="properties" style={{paddingTop: '200px'}}>
             <img src={UIDesign} alt="UI Design" />
             <Text
               color="#FF6392"
@@ -58,7 +59,7 @@ function App() {
             />
             <img src={Maintenance} alt="Maintenance Ilustration" />
           </div>
-          <div className="properties" style={{ paddingTop: "200px" }}>
+          <div className="properties" style={{paddingTop: '200px'}}>
             <img src={DevelopmentIllustration} alt="Development Illustration" />
             <Text
               color="#4EFFBF"
@@ -77,7 +78,7 @@ function App() {
             />
             <img src={Expert} alt="Expert Review Ilustration" />
           </div>
-          <div className="properties" style={{ paddingTop: "200px" }}>
+          <div className="properties" style={{paddingTop: '200px'}}>
             <img src={Work} alt="How we work Illustration" />
             <Text
               color="#FFBF5F"
@@ -98,12 +99,12 @@ function App() {
           </div>
         </div>
       ) : (
-        <div style={{ textAlign: "center" }}>
+        <div style={{textAlign: 'center'}}>
           Please open the preview in full screen desktop mode only.
         </div>
       )}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

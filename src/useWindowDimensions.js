@@ -1,21 +1,23 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react'
 
 function getWindowDimensionRatio() {
-  const windowRatio = window.innerWidth/window.innerHeight;
-  return windowRatio;
+  const windowRatio = window.innerWidth / window.innerHeight
+  return windowRatio
 }
 
 export default function useWindowDimensions() {
-  const [windowDimensionRatio, setWindowDimensionRatio] = useState(getWindowDimensionRatio());
+  const [windowDimensionRatio, setWindowDimensionRatio] = useState(
+    getWindowDimensionRatio()
+  )
 
   useEffect(() => {
     function handleResize() {
-      setWindowDimensionRatio(getWindowDimensionRatio());
+      setWindowDimensionRatio(getWindowDimensionRatio())
     }
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
-  return windowDimensionRatio;
+  return windowDimensionRatio
 }
