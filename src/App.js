@@ -16,11 +16,11 @@ import {
 
 function App() {
   const ratio = useWindowDimensions();
-  const isDesktop = ratio > 1.67 ;
+  const isDesktop = ratio > 1.67;
   return (
     <div>
-      {isDesktop?(
-          <div className="App">
+      {isDesktop ? (
+        <div className="App">
           <div style={{ position: "relative" }}>
             <div
               style={{
@@ -97,11 +97,13 @@ function App() {
             <img src={Onboarding} alt="Onboarding Ilustration" />
           </div>
         </div>
-      ):(
-        <div style={{textAlign:"center"}}>Please open the preview in full screen desktop mode only.</div>
+      ) : (
+        <div style={{ textAlign: "center" }}>
+          Please open the preview in full screen desktop mode only.
+        </div>
       )}
     </div>
-  )
+  );
 }
 
 export default App;
